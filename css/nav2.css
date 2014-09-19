@@ -1,0 +1,168 @@
+/* 主设，位置，大小 颜色 */
+.navbar-custom {
+  /* Special class on .container surrounding .navbar, used for positioning it into place. */
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin-right:0;
+  width:100%;
+  z-index: 20;
+  /* Common Settings for Nav */
+  background: transparent;
+  color: transparent;
+  box-shadow: none;
+  border: 0;
+  height: 42px;
+  filter:none;
+  padding: 20px 20px;
+  border-radius: 0;
+}
+
+/* 商标 */
+.navbar-custom .navbar-brand-logo {
+  background-image:url(/images/logo3.png); no-repeat left center;
+  color: #ffffff;
+  height: 60px;
+  width: 405px;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #e6e6e6;
+  background-color: transparent;
+}
+
+/* 菜单设置 */
+.navbar-custom .navbar-text {
+  color: #ffffff;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #ffffff;
+  padding:5px 6px;
+  color:rgba(255,255,255,0.95);
+  font-weight:600;
+  text-shadow:none;
+  text-decoration:none;
+  font-size:13px;
+  margin:2px 5px;
+  border-radius:2px
+}
+
+/*菜单悬停效果*/
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #c0c0c0;
+  background-color: transparent;
+}
+
+/* 菜单??? 效果 */
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #c0c0c0;
+  background-color: #0072ab;
+}
+.navbar-custom .navbar-nav > .disabled > a,
+.navbar-custom .navbar-nav > .disabled > a:hover,
+.navbar-custom .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+.navbar-custom .navbar-toggle {
+  /*border-color: #dddddd;*/
+  color: red
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+  border-color: #0070a8;
+}
+.navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+.navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #c0c0c0;
+  border-bottom-color: #c0c0c0;
+}
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+/*  background-color: #0072ab;
+  color: #c0c0c0;
+*/
+  background-color: transparent;
+  box-shadow: none;
+  color: #fff;
+}
+.navbar-custom .navbar-nav > .open > a .caret,
+.navbar-custom .navbar-nav > .open > a:hover .caret,
+.navbar-custom .navbar-nav > .open > a:focus .caret {
+  border-top-color: #c0c0c0;
+  border-bottom-color: #c0c0c0;
+}
+.navbar-custom .navbar-nav > .dropdown > a .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+@media (max-width: 767) {
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #c0c0c0;
+    background-color: transparent;
+  }
+  /* 多选悬停时效果 */
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #c0c0c0;
+    background-color: #0072ab;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+.navbar-custom .navbar-link {
+  color: #ffffff;
+}
+.navbar-custom .navbar-link:hover {
+  color: #c0c0c0;
+}
+
+/*login外面的边框*/
+.navbar-custom .navbar-nav .box {
+  background:transparent;
+  border:2px solid #fff
+}
+
+/* Hover时自动弹出 */
+.dropdown-hover:hover>ul.dropdown-menu {
+  display:block
+}
+.dropdown-hover:hover>ul.dropdown-menu .dropdrown-menu:after,.dropdown-hover:hover>ul.dropdown-menu .dropdown-toggle:after {
+  content:none;
+  border:0
+}
+.dropdown-hover>.dropdown-menu {
+  margin:0 20px
+}
+.dropdown-hover>.dropdown-menu a {
+  font-weight:500;
+  color:#444;
+  background:none
+}
+.dropdown-hover>.dropdown-menu a.active,.dropdown-hover>.dropdown-menu a:hover {
+  background:none;
+  color:#2b71b1
+}
+
