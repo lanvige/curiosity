@@ -137,23 +137,23 @@ hr {
   font-size:17px;
   margin-bottom:40px
 }
-#features .col-md-4 {
+#features .col-md-3 {
   text-align:center;
   padding-top:90px;
   background:center top no-repeat;
   background-image:url(/images/i-buy.png);
   background-size:100px
 }
-#features .col-md-4.store {
+#features .col-md-3.store {
   background-image:url(/images/i-store.png);
   background-size:60px;
   background-position:center 20px
 }
-#features .col-md-4.spend {
+#features .col-md-3.spend {
   background-image:url(/images/i-spend.png);
   background-position:center 20px
 }
-#features .col-md-4 p {
+#features .col-md-3 p {
   padding:0 20px
 }
 
