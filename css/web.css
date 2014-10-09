@@ -153,6 +153,10 @@ hr {
   background-image:url(/images/i-spend.png);
   background-position:center 20px
 }
+#features .col-md-3.chat {
+  background-image:url(/images/i-chat.png);
+  background-position:center 20px
+}
 #features .col-md-3 p {
   padding:0 20px
 }
@@ -191,6 +195,9 @@ hr {
   background-image:url(/images/i-wallet.png);
   background-size:40px;
   padding-left:80px
+}
+#products .col-md-5>.tech {
+  background-image:url(/images/i-tech.png)
 }
 #products .col-md-5>.vault {
   background-image:url(/images/i-vault.png)
