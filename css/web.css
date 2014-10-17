@@ -173,13 +173,25 @@ hr {
   background:#33435a;
   background-size:cover;
 }
+
 #products .bg {
   background:no-repeat;
   background-image:url(/images/screenshot.png);
   background-position:right bottom;
   background-size:auto 90%;
-  padding:60px 0
+  padding:40px 0
 }
+
+@media screen and (max-width:1024px) {
+  #products .bg {
+    background:no-repeat;
+    background-image:none;
+    background-position:right bottom;
+    background-size:auto 10%;
+    padding:60px 0
+  }
+}
+
 #products h2, #products h3, #products p {
   color:#fff;
   text-align:left
